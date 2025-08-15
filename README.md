@@ -4,7 +4,7 @@
 
 <div align="center">
 
-![Pagonic Logo](https://via.placeholder.com/300x120/1f2937/60a5fa?text=PAGONIC)
+<!-- Logo henüz hazırlanmadı - public release ile birlikte eklenecek -->
 
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 [![Python](https://img.shields.io/badge/python-3.13+-blue.svg)](https://www.python.org/downloads/)
@@ -15,7 +15,7 @@
 
 **Modern, AI-destekli, açık kaynak sıkıştırma yazılımı**
 
-[📥 İndir](#kurulum) • [🚀 Hızlı Başlangıç](#hızlı-başlangıç) • [📚 Dokümantasyon](#dokümantasyon) • [🤝 Katkıda Bulun](#katkıda-bulunma) • [💬 Topluluk](#topluluk)
+[🚧 Proje Durumu](#proje-durumu) • [📊 Performans](#performans-karşılaştırması) • [📚 Dokümantasyon](#dokümantasyon) • [🤝 Katkıda Bulun](#katkıda-bulunma) • [💬 Topluluk](#topluluk)
 
 </div>
 
@@ -185,6 +185,66 @@ Pagonic şu anda **aktif geliştirme** aşamasında. Core engine %95 tamamlandı
 
 ---
 
+## 📸 Ekran Görüntüleri ve Demo
+
+### 🚧 **Görsel İçerik Durumu**
+- 🎨 **GUI henüz geliştirme aşamasında** - Electron arayüzü tamamlandığında eklenecek
+- 📊 **Console çıktısı örnekleri** - Test sonuçları mevcut
+- ⚡ **Performans benchmark görüntüleri** - Yakında eklenecek
+- 🧪 **Test sonuçları ekran görüntüleri** - Mevcut ama düzenlenmesi gerekiyor
+
+### 💡 **Şimdilik**
+Görsel içerik için [GitHub Issues](https://github.com/SetraTheXX/Pagonic/issues) üzerinden sorabilir veya email ile iletişime geçebilirsiniz.
+
+---
+
+## 🛠️ Kullanılan Teknolojiler
+
+### 🐍 **Backend (Core Engine)**
+- **Python 3.13+** - Ana geliştirme dili
+- **NumPy** - SIMD optimizasyonları ve matematik işlemleri
+- **Psutil** - Sistem kaynaklarını izleme
+- **Zlib** - Temel sıkıştırma algoritmaları
+- **Threading** - Paralel işleme desteği
+- **Mmap** - Bellek eşlemeli dosya işlemleri
+
+### ⚡ **Frontend (Geliştirme Aşamasında)**
+- **Electron** - Cross-platform desktop app
+- **React + TypeScript** - Modern UI framework
+- **Tailwind CSS** - Utility-first CSS
+- **Vite** - Hızlı build tool
+
+### 🧪 **Test ve Geliştirme**
+- **Pytest** - Unit testing framework
+- **Custom benchmarking tools** - Performans testleri
+- **Git** - Version control
+- **Manual testing** - Kapsamlı manuel testler
+
+---
+
+## ⚙️ Sistem Gereksinimleri
+
+### ⚠️ **Henüz Test Edilmedi**
+Sistem gereksinimleri henüz tam olarak belirlenmiş değil. Farklı donanımlar üzerinde test süreci devam ediyor.
+
+### 🎯 **Tahmini Gereksinimler**
+**Minimum (Tahmin):**
+- Windows 10/11 (64-bit)
+- Python 3.13+ (development için)
+- 4GB RAM
+- 200MB disk alanı
+
+**Önerilen (Tahmin):**
+- Windows 11 (64-bit)
+- 8GB+ RAM
+- SSD disk (performans için)
+- Modern CPU (SIMD desteği için)
+
+### 📝 **Not**
+GUI tamamlandıktan sonra farklı sistemlerde kapsamlı testler yapılacak ve kesin gereksinimler belirlenecek.
+
+---
+
 ## 🧪 Test Metodolojisi ve Performans
 
 ### 📊 **Test Süreci Hakkında**
@@ -238,6 +298,53 @@ WinRAR:   Sabit bellek tahsisi
 
 ---
 
+## ❓ Sık Sorulan Sorular (FAQ)
+
+### 🤔 **"Neden yeni bir sıkıştırma programı?"**
+Kendi bilgisayarımda daha modern, hızlı bir program istiyordum. WinRAR eski, 7-Zip temel. AI destekli, kullanıcı dostu bir alternatif yapmak istedim.
+
+### 📱 **"Mobile versiyonu olacak mı?"**
+Uzun vadede V2.0'da companion app planlanıyor, ama şu an öncelik desktop versiyonu tamamlamak.
+
+### 💰 **"Ücretli olacak mı?"**
+Hayır, tamamen ücretsiz ve açık kaynak kalacak. Amacım para kazanmak değil, kendimi geliştirmek.
+
+### 🏷️ **"İsim kesin mi?"**
+"Pagonic" ismi henüz kesin değil, değişebilir. O yüzden domain vs almadım.
+
+### 🐧 **"Linux/macOS desteği?"**
+Şu an Windows odaklı geliştiriyorum. GUI tamamlandıktan sonra diğer platformlar değerlendirilecek.
+
+### 🎓 **"Neden bu projeyi yaptın?"**
+Üniversiteye yeni giriyorum, CV'me eklemek ve kendimi geliştirmek için. Açık kaynak deneyimi kazanmak istiyorum.
+
+### 🔧 **"Nasıl test edebilirim?"**
+Henüz public release yok. GUI tamamlandıktan sonra beta testçiler aranacak.
+
+---
+
+## 📈 Proje İstatistikleri
+
+### 📊 **Geliştirme Metrikleri**
+- **Kod satırları**: 50,000+ (98 Python dosyası)
+- **Ana ZIP handler**: 3,622 satır (tek dosya)
+- **Test sayısı**: 960+ otomatik test (%100 başarı)
+- **Manuel test saatleri**: 200+ saat
+- **Test edilen dosya türleri**: 15+ farklı format
+
+### 🏗️ **Mimari Metrikleri**
+- **Ana modüller**: 100+ bileşen
+- **Optimizasyon katmanları**: AI, SIMD, Memory Pool, Hibrit
+- **Desteklenen format**: ZIP32 (4GB'a kadar)
+- **Performans**: 300+ MB/s ortalama (test koşullarına bağlı)
+
+### 🎯 **Kişisel Hedefler**
+- **GitHub Stars**: İlk hedef 100+ (mütevazi başlangıç)
+- **Öğrenme**: Modern teknolojilerde deneyim kazanmak
+- **CV**: Portföy projesi olarak kullanmak
+
+---
+
 ## 🤝 Katkıda Bulunma
 
 ### 💝 **Neden Katkıda Bulunmalısınız?**
@@ -255,6 +362,24 @@ WinRAR:   Sabit bellek tahsisi
 - **Design** - UI/UX tasarım
 
 ### 📋 **Katkıda Bulunma Adımları**
+
+#### 🐛 **Bug Raporu (Henüz Beta Değil)**
+1. **Email ile bildirin**: [pagonicapp@gmail.com](mailto:pagonicapp@gmail.com)
+2. **GitHub Issues** kullanabilirsiniz (template yakında)
+3. **Detaylı açıklama** yapın - hangi durumda, nasıl hata
+
+#### 💡 **Özellik Önerisi**
+1. **Önce email ile tartışalım** - fikrini paylaş
+2. **GitHub Issue** açabilirsin
+3. **Mütevazi beklenti** - henüz küçük bir proje
+
+#### 🎓 **Öğrenci Katkıcılar**
+**Aynı yaştaki arkadaşlardan** katkı alabilmek harika olur:
+- 📚 **Birlikte öğrenelim** - deneyim paylaşalım
+- 🤝 **Mentorluk** - birbirimize yardım edelim
+- 💻 **İlk açık kaynak** deneyiminiz olabilir
+
+#### 🔧 **Kod Katkısı**
 1. **Fork** yapın
 2. **Feature branch** oluşturun (`git checkout -b amazing-feature`)
 3. **Commit** yapın (`git commit -m 'Add amazing feature'`)
@@ -267,11 +392,19 @@ Detaylı kılavuz için [CONTRIBUTING.md](CONTRIBUTING.md) dosyasını okuyun.
 
 ## 📚 Dokümantasyon
 
-- 📖 **[Kullanıcı Kılavuzu](docs/user-guide.md)** - Başlangıç rehberi
-- 🏗️ **[Geliştirici Dokümantasyonu](docs/developer.md)** - API referansı
-- ⚡ **[Performans Kılavuzu](docs/performance.md)** - Optimizasyon ipuçları
-- 🤖 **[AI Sistemi](docs/ai-system.md)** - Akıllı optimizasyon
-- 🧪 **[Test Kılavuzu](docs/testing.md)** - Test yazma rehberi
+### 📝 **Dokümantasyon Durumu**
+Proje henüz geliştirme aşamasında olduğu için kapsamlı dokümantasyon hazırlanmadı. Public release ile birlikte aşağıdaki dokümantasyonlar eklenecek:
+
+- 📖 **Kullanıcı Kılavuzu** - Başlangıç rehberi *(yakında)*
+- 🏗️ **Geliştirici Dokümantasyonu** - API referansı *(yakında)*
+- ⚡ **Performans Kılavuzu** - Optimizasyon ipuçları *(yakında)*
+- 🤖 **AI Sistemi Dokümantasyonu** - Akıllı optimizasyon *(yakında)*
+- 🧪 **Test Kılavuzu** - Test yazma rehberi *(yakında)*
+
+### 💡 **Şu An İçin**
+- 📧 **Sorularınız için**: [pagonicapp@gmail.com](mailto:pagonicapp@gmail.com)
+- 🐙 **Teknik sorular**: [GitHub Issues](https://github.com/SetraTheXX/Pagonic/issues)
+- 📋 **Kod incelemesi**: Repository'deki kaynak kodlar
 
 ---
 
@@ -283,11 +416,16 @@ Detaylı kılavuz için [CONTRIBUTING.md](CONTRIBUTING.md) dosyasını okuyun.
 - 💬 **Discord Server** - Yakında açılacak
 - 🐦 **Social Media** - Proje büyüdükçe eklenecek
 
+### ⚠️ **İsim ve Domain Durumu**
+- 🏷️ **"Pagonic" ismi** henüz kesinleşmedi - değişebilir
+- 🌍 **Domain alınmadı** - isim kesinleştikten sonra
+- 📧 **Geçici email**: pagonicapp@gmail.com
+- 🎨 **Logo ve branding** - final isim sonrası tasarlanacak
+
 ### 👥 **Topluluk Hedefleri**
 - 🌟 **GitHub Stars**: İlk hedef 100+ (mütevazi başlangıç!)
 - 👥 **Katkıcılar**: İlk katkıcıları bekliyoruz
 - 📧 **Geri bildirim**: Her türlü öneri değerli
-- 🌍 **Dil desteği**: Türkçe ve İngilizce
 
 ---
 
@@ -298,17 +436,21 @@ Detaylı kılavuz için [CONTRIBUTING.md](CONTRIBUTING.md) dosyasını okuyun.
 - ✅ **300+ MB/s ortalama hız** (test koşullarına göre değişken)
 - ✅ **%82 AI güven oranı** (çok yüksek doğruluk)
 - ✅ **4GB dosya desteği** (ZIP32 tam kullanımı)
-- ✅ **50,000+ satır kod** (4.5+ ay yoğun çalışma)
 - ✅ **98 Python dosyası** (modüler mimari)
-- ✅ **3,622 satır ana ZIP handler** (tek dosya)
 - ✅ **Binlerce test saati** (simüle + gerçek dünya testleri)
 
-### 🎯 **Kişisel Hedeflerim**
-- 📚 **Kendimi geliştirmek** - Ana amacım bu, para kazanmak değil
-- 🎓 **Üniversite deneyimi** - Yeni üniversiteye giriyorum, öğrenmeye odaklanıyorum
-- 🤝 **Topluluktan öğrenmek** - Deneyimli geliştiricilerden geri bildirim almak
-- 🌟 **Açık kaynak katkısı** - Topluluğa faydalı bir şey bırakmak
-- 💡 **Teknik beceri kazanımı** - Modern teknolojileri öğrenmek
+### 🔮 **Uzun Vadeli Vizyon (Mütevazi)**
+- 🎓 **CV projesi** - Üniversite ve iş başvurularında portföy olarak kullanmak
+- 📚 **Öğrenme deneyimi** - Modern teknolojilerde kendimi geliştirmek
+- 🤝 **Açık kaynak katkısı** - Topluluğa küçük de olsa bir şey bırakmak
+- 💡 **Teknik beceri** - Python, AI, performans optimizasyonu öğrenmek
+- 🌟 **Belki faydalı olur** - Birkaç kişinin işine yararsa mutlu olurum
+
+### 🎯 **Gerçekçi Hedefler**
+- ✅ **İlk hedef**: Projeyi tamamlamak ve yayınlamak
+- 📈 **100+ GitHub star** alabilirse harika olur
+- 🤝 **5-10 katkıcı** bulabilirsek süper
+- 💼 **İş başvurularında** gösterebileceğim bir proje
 
 ---
 
